@@ -28,7 +28,6 @@ public class LevantamentoModel
     public int QntLinguicaDespesa { get; private set; }
     public decimal  PrecoLinguicaDespesa { get; private set; }
 
-
     public LevantamentoModel(
         string dataLevantamento,
         int carneVendida,
