@@ -8,8 +8,11 @@ public class LevantamentoModel
     // Espetos Vendidos
     
     public int CarneVendida { get; private set; }
+    public decimal PrecoVendidoCarne { get; private set; }
     public int FranbaconVendido { get; private set; }
+    public decimal PrecoVendidoFranbacon { get; private set; }
     public int LinguicaVendida { get; private set; }
+    public decimal PrecoVendidoLinguica { get; private set; }
     
     // Despesas
     
@@ -29,8 +32,11 @@ public class LevantamentoModel
     public LevantamentoModel(
         string dataLevantamento,
         int carneVendida,
+        decimal precoVendidoCarne,
         int franbaconVendido,
+        decimal precoVendidoFranbacon,
         int linguicaVendida,
+        decimal precoVendidoLinguica,
         int carvao,
         decimal precoCarvao,
         int qntCarneDespesa,
@@ -44,8 +50,11 @@ public class LevantamentoModel
         ID = Guid.NewGuid();
         DataLevantamento = dataLevantamento;
         CarneVendida = carneVendida;
+        PrecoVendidoCarne = precoVendidoCarne;
         FranbaconVendido = franbaconVendido;
+        PrecoVendidoFranbacon = precoVendidoFranbacon;
         LinguicaVendida = linguicaVendida;
+        PrecoVendidoLinguica = precoVendidoLinguica;
         Carvao = carvao;
         PrecoCarvao = precoCarvao;
         QntCarneDespesa = qntCarneDespesa;

@@ -13,8 +13,11 @@ public static class LevantamentoRoute
             var levantamento = new LevantamentoModel(
                     req.dataLevantamento,
                     req.carneVendida,
+                    req.precoVendidoCarne,
                     req.franbaconVendido,
+                    req.precoVendidoFranbacon,
                     req.linguicaVendida,
+                    req.precoVendidoLinguica,
                     req.carvao,
                     req.precoCarvao,
                     req.qntCarneDespesa,

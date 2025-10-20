@@ -3,8 +3,11 @@ namespace API.Models;
 public record LevantamentoRequest(
     string dataLevantamento,
     int carneVendida,
+    decimal precoVendidoCarne,
     int franbaconVendido,
+    decimal precoVendidoFranbacon,
     int linguicaVendida,
+    decimal precoVendidoLinguica,
     int carvao,
     decimal precoCarvao,
     int qntCarneDespesa,
